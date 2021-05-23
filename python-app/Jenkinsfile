@@ -2,7 +2,7 @@ pipeline {
 
   environment {
 
-    registry = "bhawdishm/my-python-app"
+    registry = "Bhawdish/ClassEndProject"
 
     registryCredential = 'docker-creds'
 
@@ -18,7 +18,7 @@ pipeline {
 
       steps {
 
-        git 'https://github.com/Bhawdish/ClassEndProject.git'
+        git 'https://github.com/Bhawdish/ClassEndProject'
 
       }
 
